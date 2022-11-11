@@ -1,0 +1,6 @@
+arviz>=v0.13.0
+graphviz
+matplotlib>=3.6.1
+numpy
+pandas
+pymc>=4.0.0
