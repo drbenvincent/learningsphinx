@@ -31,11 +31,15 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx_autodoc_typehints",
     "nbsphinx",
-    "recommonmark",
+    "myst_parser",
 ]
 
+source_suffix = [".rst", ".md"]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+
+# MyST options for working with markdown files. Info about extensions here https://myst-parser.readthedocs.io/en/latest/syntax/optional.html?highlight=math#admonition-directives
+myst_enable_extensions = ["dollarmath", "amsmath", "colon_fence", "linkify"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
