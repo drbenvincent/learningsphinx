@@ -10,25 +10,6 @@ Nothing to see here. This is just a test repository for Ben to learn sphinx and 
 
 This page is written in ``.rst``.
 
-.. toctree::
-   :titlesonly:
-
-   quickstart
-   some_info.md
-
-.. toctree::
-   :caption: Examples
-   :titlesonly:
-
-   notebooks/example1.ipynb
-   notebooks/example2.ipynb
-
-.. toctree::
-   :caption: API Reference
-   :titlesonly:
-
-   apidocs
-
 This is a title
 ===============
 
@@ -56,6 +37,28 @@ Some maths
    (a + b)^2  &=  (a + b)(a + b) \\
               &=  a^2 + 2ab + b^2
 
+Package outline
+===============
+
+.. toctree::
+   :titlesonly:
+
+   quickstart
+   some_info.md
+
+.. toctree::
+   :caption: Examples
+   :titlesonly:
+
+   notebooks/example1.ipynb
+   notebooks/example2.ipynb
+
+.. toctree::
+   :caption: API Reference
+   :titlesonly:
+
+   api_mypackage
+   api_utils
 
 Indices
 =======
