@@ -55,11 +55,11 @@ autodoc_typehints = "description"
 # Don't show class signature with the class' name.
 autodoc_class_signature = "separated"
 
-# Add "Edit on Github" link. Replaces "view page source"
+# Add "Edit on Github" link. Replaces "view page source" ----------------------
 html_context = {
     "display_github": True,  # Integrate GitHub
     "github_user": "drbenvincent",  # Username
     "github_repo": "learningsphinx",  # Repo name
     "github_version": "master",  # Version
-    "conf_py_path": "/source/",  # Path in the checkout to the docs root
+    "conf_py_path": "/docs/",  # Path in the checkout to the docs root
 }
