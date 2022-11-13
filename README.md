@@ -1,6 +1,6 @@
 # learningsphinx
 
-Nothing to see here. Just learning sphinx.
+Nothing to see here. This is just a test repository for Ben to learn sphinx and to experiment without breaking docs in a real, in-production, package.
 
 ---
 

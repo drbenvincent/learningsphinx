@@ -1,3 +1,6 @@
+nbsphinx
+recommonmark
 sphinx
-furo
+sphinx-autodoc-typehints
 sphinx-design
+sphinx-rtd-theme

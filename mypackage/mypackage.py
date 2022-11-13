@@ -1,7 +1,14 @@
-class Grapes:
+from typing import Optional
 
+
+class Grapes:
     """
     This is a class for grapes
+
+    .. math::
+
+       (a + b)^2  =  (a + b)(a + b)
+
     """
 
     def __init__(self):
@@ -9,11 +16,13 @@ class Grapes:
         self.rating = None
         self.info = dict()
 
-    def eat_grapes(self):
+    def eat_grapes(self, n_grapes: Optional[int] = 1) -> None:
         """
-        Shows the Pokémon name and its evolution.
+        This method leads to eating grapes, :math:`a^2 + b^2 = c^2`.
+
+        :param n_grapes: The number of grapes we'd like to eat.
         """
-        print(f"I am eating some grapes.")
+        print(f"I am eating {n_grapes} grapes.")
 
 
 class WhiteGrapes(Grapes):
