@@ -47,7 +47,12 @@ myst_enable_extensions = ["dollarmath", "amsmath", "colon_fence", "linkify"]
 # html_theme = "alabaster"
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
+html_logo = "_static/logo.png"
 
+# TODO: version seems not to be displayed despite setting this to True
+html_theme_options = {
+    "display_version": True,
+}
 
 # -- Options for autodoc ----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#configuration

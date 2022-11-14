@@ -6,3 +6,4 @@
 
 .. automodule:: mypackage
    :members:
+   :undoc-members:
